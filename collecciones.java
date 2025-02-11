@@ -7,3 +7,6 @@ alimentos.add("pera");
 alimentos.add("pechuga");
 alimentos.add("lechuga");
 
+for (String alimento: alimentos){
+    System.out.println(alimento);
+}
