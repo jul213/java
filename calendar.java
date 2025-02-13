@@ -12,5 +12,8 @@ public class TimeZoneT {
         int hour = cal.get(Calendar.HOUR_OF_DAY);
         int minute = cal.get(Calendar.MINUTE);
         int second = cal.get(Calendar.SECOND);
+
+
+        System.out.printf("Time in New york is: %02d:%02d:%02d", hour, minute, second)
      }
 }
