@@ -13,3 +13,7 @@ class sas extends SuperClass {
     public int calculate(int a){
         return a * a;
 }
+
+
+
+int x = hoal.method2(10);
