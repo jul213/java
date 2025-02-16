@@ -14,6 +14,6 @@ public class carDeserialization {
             in.close();
 
             fileIn.close();
-        }
+        } catch()
     }
 }
