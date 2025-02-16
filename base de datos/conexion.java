@@ -21,7 +21,12 @@ public class Main{
                 "select  * from pokemon;"
             );
 
-            
+            while (rs.next()){
+                int id = rs.getInt("id");
+                String name = rs.getString("name");
+                System.out.println("el ID es: " + id);
+                System.out.println("el nombre es: " + nombre);
+            }
         }
     }
 }
