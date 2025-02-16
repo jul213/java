@@ -6,5 +6,8 @@ public class Main {
                 System.out.println("test 1");
             }
         }
+
     }
+
+    Runnable r2 = () -> System.out.println("test 2");
 }
