@@ -31,6 +31,10 @@ public class Main{
             rs.close();
             stmt.close();
             c.close();
+        } catch(Exception e){
+            System.err.println(
+                e.getClass().getName() + ": " + get
+            )
         }
     }
 }
