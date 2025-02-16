@@ -19,6 +19,7 @@ public class carDeserialization {
             return;
         }catch(classNotFoundException ex){
             System.out.println("car not found");
+            ex.printStackTrace();
         }
     }
 }
