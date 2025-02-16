@@ -27,6 +27,10 @@ public class Main{
                 System.out.println("el ID es: " + id);
                 System.out.println("el nombre es: " + nombre);
             }
+
+            rs.close();
+            stmt.close();
+            c.close();
         }
     }
 }
