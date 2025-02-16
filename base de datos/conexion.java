@@ -33,8 +33,10 @@ public class Main{
             c.close();
         } catch(Exception e){
             System.err.println(
-                e.getClass().getName() + ": " + get
-            )
+                e.getClass().getName() + ": " + e.getMessage()
+            );
+            System.exit(0);
         }
+        
     }
 }
