@@ -8,7 +8,10 @@ public class Main{
         Statement stmt = null;
 
         try{
-            
+            class.forName("org.postgresql.driver");
+
+            c = DriverManager
+            .getConnection("")
         }
     }
 }
