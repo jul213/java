@@ -11,7 +11,17 @@ public class Main{
             class.forName("org.postgresql.driver");
 
             c = DriverManager
-            .getConnection("")
+            .getConnection("jdbc:postgresql://asa:2336/pokemon");
+            c.setAutoCommit(false);
+            System.out.println("base de datos abierto");
+
+            stmt = c.createStatement();
+
+            ResultSet rs = stmt.executeQuery(
+                "select  * from pokemon;"
+            );
+
+            
         }
     }
 }
