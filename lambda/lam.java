@@ -10,4 +10,6 @@ public class Main {
     }
 
     Runnable r2 = () -> System.out.println("test 2");
+    r1.run();
+    r2.run();
 }
