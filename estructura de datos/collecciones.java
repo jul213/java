@@ -1,11 +1,11 @@
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class Main{
 
     public static void main(String[] args){
 
-        List<String> alimentos = new List<String>();
+        List<String> alimentos = new ArrayList<String>();
 
         alimentos.add("papas");
         alimentos.add("aguacate");
