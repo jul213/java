@@ -16,5 +16,8 @@ public class Main{
         for (String alimento: alimentos){
             System.out.println(alimento);
         }
+
+
+        List<String> escolares = Arrays.asList("borrador", "lapiz", "corrector");
     }
 }
