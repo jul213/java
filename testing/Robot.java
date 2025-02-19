@@ -15,3 +15,4 @@ iso.mouseRelase(
     InputEvent.BUTTON1_MASK
 );
 
+iso.keyPress(KeyEvent.VK_H);
