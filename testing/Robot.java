@@ -11,7 +11,7 @@ iso.mousePress(
     InputEvent.BUTTON1_MASK
 );
 
-iso.mouseRelase(
+iso.mouseRelease(
     InputEvent.BUTTON1_MASK
 );
 
