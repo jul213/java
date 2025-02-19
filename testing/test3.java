@@ -1,3 +1,8 @@
 public class User{
-    private Users mike;
+    private Users juan;
+
+    @BeforeEach
+    public void setup(){
+        juan = new Users("")
+    }
 }
