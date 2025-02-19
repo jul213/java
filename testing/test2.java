@@ -7,8 +7,8 @@ public class NewTestClass{
 
     }
 
-    @Test
+    @Test(timeout = 500)
     public void newTest2(){
-        
+
     }
 }
