@@ -2,6 +2,8 @@ import java.awt.Robot
 
 Robot iso = new Robot();
 
+int x = 100;
+int y = 100;
 iso.mouseMove(x,y);
 
 iso.delay(2000);
