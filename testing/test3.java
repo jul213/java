@@ -3,6 +3,6 @@ public class User{
 
     @BeforeEach
     public void setup(){
-        juan = new Users("")
+        juan = new Users("juan")
     }
 }
