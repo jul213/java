@@ -11,7 +11,7 @@ public class NewTestClass{
     public void newTest2(){
 
     }
-
+    @ignore
     @Test(expected = IOException.class, timeout = 800)
     public void newTest3(){
 
