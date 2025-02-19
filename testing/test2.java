@@ -6,4 +6,9 @@ public class NewTestClass{
     public void newTest(){
 
     }
+
+    @Test
+    public void newTest2(){
+        
+    }
 }
