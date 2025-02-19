@@ -11,4 +11,9 @@ public class NewTestClass{
     public void newTest2(){
 
     }
+
+    @Test()
+    public void newTest3(){
+        
+    }
 }
