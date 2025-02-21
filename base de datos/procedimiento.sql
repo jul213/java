@@ -17,5 +17,6 @@ if @cnt >=1 then
     insert into bless(actor_id, film_id, type_oscar) values (act_id, film_id, typePrize);
 end if
 
+commit;
 end
 
