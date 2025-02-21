@@ -1,7 +1,7 @@
 create procedure addkl(in act_id, in film_id, in typePrize varchar(50))
 
 begin
-
+declare cnt int;
 start transaction;
 
 create table if not exists empresa.bless (
