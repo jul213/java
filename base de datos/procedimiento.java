@@ -1,4 +1,4 @@
-String drv = "com.mysql.jdbc.Driver"; 
+String drv = "com.mysql.cj.jdbc.Driver"; 
 class.forName(drv);
 
 String serverAdress = "localhost:3306";
