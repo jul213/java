@@ -13,3 +13,5 @@ Statement t2 = conn.createStatement();
 
 int result2 = t2.executeUpdate("delete from actor where actor_id = 5");
 
+conn.commit();
+
