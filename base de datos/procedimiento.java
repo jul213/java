@@ -25,6 +25,8 @@ System.out.println("conectado a la base de datos")
     if (conn !== null){
         try{
             conn.close();
+        } catch(SQLException e){
+            System.out.println("error en el cierre de la conexion de la base de datos")
         }
     }
 }
