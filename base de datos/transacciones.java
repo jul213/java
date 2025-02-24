@@ -15,3 +15,5 @@ int result2 = t2.executeUpdate("delete from actor where actor_id = 5");
 
 conn.commit();
 
+ps.close();
+t2.close();
