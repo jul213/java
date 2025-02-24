@@ -16,4 +16,9 @@ String url = "jdbc:mysql://" + serverAdress + "/" + db + "?noAccessToProcedureBo
 conn = DriverManager.getConnection(url, user, pass);
 conn.setAutoCommit(true);
 System.out.println("conectado a la base de datos")
-} catch ()
+} catch (classNotFoundException e){
+    e.printStackTrace();
+} catch (SQLException e){
+    System.err.println("conexion fallida");
+    e.printStackTrace();
+}
