@@ -1,3 +1,6 @@
+import java.sql.Connection;
+
+
 String drv = "com.mysql.cj.jdbc.Driver"; 
 class.forName(drv);
 
