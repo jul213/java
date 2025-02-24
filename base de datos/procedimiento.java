@@ -21,4 +21,10 @@ System.out.println("conectado a la base de datos")
 } catch (SQLException e){
     System.err.println("conexion fallida");
     e.printStackTrace();
+} finally {
+    if (conn !== null){
+        try{
+            
+        }
+    }
 }
