@@ -20,4 +20,6 @@ ps.close();
 t2.close();
 } catch(SQLException e){
     e.printStackTrace();
+} finally {
+    
 }
