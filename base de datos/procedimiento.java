@@ -24,7 +24,7 @@ System.out.println("conectado a la base de datos")
 } finally {
     if (conn !== null){
         try{
-            
+            conn.close();
         }
     }
 }
