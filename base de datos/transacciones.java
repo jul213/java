@@ -1,5 +1,6 @@
-conn.setAutoCommit(false);
+try {
 
+conn.setAutoCommit(false);
 String query = "insert into actor (first_name, last_name, last_updates) values()";
 PreparedStatement ps = conn.PreparedStatement(query);
 ps.setString(1,"luis");
@@ -17,3 +18,6 @@ conn.commit();
 
 ps.close();
 t2.close();
+} catch(SQLException e){
+    e.printStackTrace();
+}
