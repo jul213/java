@@ -6,6 +6,8 @@ import java.sql.Connection;
 
 
 Connection conn = null;
+Statement st2 = null;
+ResultSet rs2 = null;
 
 
 try {
