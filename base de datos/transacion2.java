@@ -44,6 +44,6 @@ try {
 
         if (conn !== null){
             conn.rollback();
-        }
-    }
+        } 
+    } catch (SQLException)
 }
