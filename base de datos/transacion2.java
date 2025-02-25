@@ -15,4 +15,8 @@ try {
     Statement st2 = conn.createStatement();
 
     ResultSet rs2 = st2.executeQuery("select * from actor where first_name = 'juan' ");
+
+    while (rs2.next()){
+        
+    }
 }
