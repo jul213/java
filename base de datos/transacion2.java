@@ -19,5 +19,7 @@ try {
     while (rs2.next()){
 
         int id = rs2.getInt("actor_id");
+        String firstName = rs2.getString("first_name");
+        
     }
 }
