@@ -10,4 +10,9 @@ try {
     pst1.setDate(3, new Date(new java.util.Date().getTime()));
 
     int result1 = pst1.executeUpdate();
+
+
+    Statement st2 = conn.createStatement();
+
+    ResultSet rs2 = st2.executeQuery("select * from actor where first_name = 'juan' ");
 }
