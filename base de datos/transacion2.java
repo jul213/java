@@ -48,4 +48,8 @@ try {
     } catch (SQLException rollbackEx){
         rollbackEx.printStackTrace();
     }
+} finally {
+    st2.close();
+    rs2.close();
+    conn.close();
 }
