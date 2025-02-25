@@ -17,6 +17,7 @@ try {
     ResultSet rs2 = st2.executeQuery("select * from actor where first_name = 'juan' ");
 
     while (rs2.next()){
-        
+
+        int id = rs2.getInt("actor_id");
     }
 }
