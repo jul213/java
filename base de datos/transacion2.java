@@ -23,4 +23,8 @@ try {
         String lastName = rs2.getString("last_name");
         Date lastUpdate = rs2.getDate("last_update");
     }
+
+    System.out.println("Actor: ");
+    System.out.println("id: " + id);
+    
 }
