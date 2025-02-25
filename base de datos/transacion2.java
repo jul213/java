@@ -28,4 +28,5 @@ try {
     System.out.println("id: " + id);
     System.out.println("Name: " + firstName);
     System.out.println("last name: " + lastName);
+    System.out.println("last Update: " + lastUpdate.toString());
 }
