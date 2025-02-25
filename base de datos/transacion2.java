@@ -8,4 +8,6 @@ try {
     pst1.setString(1,"juan");
     pst1.setString(2, "perez");
     pst1.setDate(3, new Date(new java.util.Date().getTime()));
+
+    int result1 = pst1.executeUpdate();
 }
