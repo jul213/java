@@ -21,6 +21,6 @@ try {
         int id = rs2.getInt("actor_id");
         String firstName = rs2.getString("first_name");
         String lastName = rs2.getString("last_name");
-        
+        Date lastUpdate = rs2.getDate("last_update");
     }
 }
