@@ -45,5 +45,7 @@ try {
         if (conn !== null){
             conn.rollback();
         } 
-    } catch (SQLException)
+    } catch (SQLException rollbackEx){
+        rollbackEx.printStackTrace();
+    }
 }
