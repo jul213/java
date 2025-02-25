@@ -3,6 +3,11 @@ import java.sql.SQLException;
 import java.sql.PreparatedStatement;
 import java.sql.ResultSet;
 import java.sql.Connection;
+
+
+Connection conn = null;
+
+
 try {
     conn.setAutoCommit(false);
 
