@@ -37,4 +37,6 @@ try {
 
 
     conn.commit();
-} catch ()
+} catch (SQLException e){
+    e.printStackTrace();
+}
