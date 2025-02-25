@@ -26,5 +26,6 @@ try {
 
     System.out.println("Actor: ");
     System.out.println("id: " + id);
-    
+    System.out.println("Name: " + firstName);
+    System.out.println("last name: " + lastName);
 }
