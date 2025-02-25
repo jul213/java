@@ -20,6 +20,7 @@ try {
 
         int id = rs2.getInt("actor_id");
         String firstName = rs2.getString("first_name");
+        String lastName = rs2.getString("last_name");
         
     }
 }
