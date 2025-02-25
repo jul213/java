@@ -1,3 +1,6 @@
+
+import java.sql.PreparatedStatement;
+
 try {
     conn.setAutoCommit(false);
 
@@ -29,4 +32,4 @@ try {
     System.out.println("Name: " + firstName);
     System.out.println("last name: " + lastName);
     System.out.println("last Update: " + lastUpdate.toString());
-}
+} catch ()
