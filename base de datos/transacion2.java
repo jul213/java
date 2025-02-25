@@ -39,4 +39,11 @@ try {
     conn.commit();
 } catch (SQLException e){
     e.printStackTrace();
+
+    try {
+
+        if (conn !== null){
+            conn.rollback();
+        }
+    }
 }
