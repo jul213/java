@@ -1,5 +1,5 @@
 
-public class Stack<T>{
+    class Stack<T>{
 
     int index = 0;
     private Object[] arr = new Object[100];
