@@ -9,4 +9,8 @@ public class main {
     cars.add("mazda");
     cars.add("ferrari");
     cars.add("mclaren");
+
+    for (String car : cars){
+        
+    }
 }
