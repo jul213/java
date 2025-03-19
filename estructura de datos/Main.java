@@ -11,8 +11,8 @@ public class stack<T>{
         return arr[--index];
     }
 
-    public T get(T elemento){
-        return arr[elemento];
+    public T get(int indice){
+        return arr[indice];
     }
 }
 
