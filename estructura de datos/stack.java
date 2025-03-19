@@ -21,5 +21,8 @@ public class Main{
     public void main(String[] args){
         stack<Integer> ints = new stack<Integer>();
         ints.push(20);
+        ints.push(25);
+        ints.push(30);
+        ints.push(40);
     }
 }
