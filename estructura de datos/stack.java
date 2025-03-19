@@ -8,11 +8,11 @@ public class stack<T>{
     }
 
     public T pop(){
-        return (T) arr[--index];
+        return (RT)arr[--index];
     }
 
     public T get(int indice){
-        return (T) arr[indice];
+        return arr[indice];
     }
 }
 
