@@ -8,7 +8,7 @@ public class stack<T>{
     }
 
     public T pop(){
-        return arr[index--];
+        return arr[--index];
     }
 
     public T get(T elemento){
@@ -19,6 +19,7 @@ public class stack<T>{
 public class Main{
 
     public void main(String[] args){
+        stack<int> ints = new stack<int>();
         
     }
 }
