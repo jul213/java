@@ -11,6 +11,6 @@ public class main {
     cars.add("mclaren");
 
     for (String car : cars){
-        
+        System.out.println(car);
     }
 }
