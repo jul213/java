@@ -15,3 +15,10 @@ public class stack<T>{
         return arr[elemento];
     }
 }
+
+public class Main{
+
+    public void main(String[] args){
+        
+    }
+}
