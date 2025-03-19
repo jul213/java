@@ -6,4 +6,8 @@ public class stack<T>{
     public void push(T element){
         arr[index++] = element;
     }
+
+    public T pop(){
+        return arr[index--];
+    }
 }
