@@ -10,4 +10,8 @@ public class stack<T>{
     public T pop(){
         return arr[index--];
     }
+
+    public T get(T elemento){
+        return arr[elemento];
+    }
 }
