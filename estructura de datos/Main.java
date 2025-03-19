@@ -1,4 +1,4 @@
-
+import java.util.Iterator;
     class Stack<T>{
 
     int index = 0;
@@ -24,5 +24,9 @@ public class Main{
         ints.push(25);
         ints.push(30);
         ints.push(40);
+
+        for (int num : ints){
+            System.out.println(num);
+        }
     }
 }
