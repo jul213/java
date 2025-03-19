@@ -19,7 +19,7 @@ public class stack<T>{
 public class Main{
 
     public void main(String[] args){
-        stack<int> ints = new stack<int>();
-        
+        stack<Integer> ints = new stack<Integer>();
+        ints.push(20);
     }
 }
