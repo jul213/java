@@ -3,5 +3,7 @@ import java.util.LinkedList;
 
 public class main {
     
-    LinkedL
+    LinkedList<String> cars = new LinkedList<String>();
+
+    
 }
